@@ -1,4 +1,10 @@
 
+# ssh login
+export delta2=10.37.1.158
+alias delta2='ssh chenlingxi@'$delta2
+alias dl380='ssh chenlingxi@dl380a.cs.cityu.edu.hk'
+
+
 # cityU bioinfo software environment
 source /home/_00_ROOT_THINGS/_00_Global_Variables.sh
 export jobguard=$bioto_jobguard
@@ -8,30 +14,29 @@ export meerkat=$bioto_Meerkat_Script_dir
 export seeksv=$bioto_SeekSV_0_2_0
 
 # project workspace
-export clx='/home/chenlingxi/mnt/disk2/'
+export clx='/home/chenlingxi/mnt/disk2'
 alias clx='cd '$clx
-export disk2='/disk2/workspace/chenlingxi/'
+export disk2='/disk2/workspace/chenlingxi'
 alias disk2='cd '$disk2
-alias disk2pwd='pwd | bash ~/.rc/cityU/disk2pwd.sh' 
-export tmp=$clx'tmp/'
-#export PATH=$PATH:$clx'/bin'
+alias pwd='pwd | bash ~/.rc/cityU/disk2pwd.sh' 
+export tmp=$clx'/tmp/'
 
 # tenx pipeline
-export tenx=$clx'workspace/Bio_Projects/10X_Pipeline/tenxtools/'
+export tenx=$clx'/workspace/Bio_Projects/10X_Pipeline/tenxtools'
 alias tenx='cd '$tenx
 
 # SCCC project
-export sccc=$clx'workspace/Bio_Projects/SCCC/WGS-10X/'
+export sccc=$clx'/workspace/Bio_Projects/SCCC/WGS-10X'
 alias sccc='cd '$sccc
 
 # WHOC project
-export whoc=$clx'workspace/Bio_Projects/WHOC/'
+export whoc=$clx'/workspace/Bio_Projects/WHOC'
 alias whoc='cd '$whoc
 
 # test workplace
-export test=$clx/workspace/test_biotools
+export test=$clx'/workspace/test_biotools'
 alias test='cd '$test
 alias lr='cd '$test'/longranger/longranger-2.1.6/longranger-cs/2.1.6'
-export longranger=$test/longranger/longranger-2.1.6/longranger
+export longranger=$test'/longranger/longranger-2.1.6/longranger'
 
 
