@@ -19,7 +19,11 @@ alias clx='cd '$clx
 export disk2='/disk2/workspace/chenlingxi'
 alias disk2='cd '$disk2
 alias pwd='pwd | bash ~/.rc/cityU/disk2pwd.sh' 
-export tmp=$clx'/tmp/'
+export tmp=$clx'/tmp'
+
+# R library
+# R_LIBS_USER=/home/BIOINFO_TOOLS/_00_Library/R
+export R_LIBS_USER=$clx'/lib/tools/R' 
 
 # tenx pipeline
 export tenx=$clx'/workspace/Bio_Projects/10X_Pipeline/tenxtools'
