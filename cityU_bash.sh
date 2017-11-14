@@ -14,11 +14,9 @@ export meerkat=$bioto_Meerkat_Script_dir
 export seeksv=$bioto_SeekSV_0_2_0
 
 # project workspace
-export clx='/home/chenlingxi/mnt/disk2'
+export clx='/disk2/workspace/chenlingxi'
 alias clx='cd '$clx
-export disk2='/disk2/workspace/chenlingxi'
-alias disk2='cd '$disk2
-alias pwd='pwd | bash ~/.rc/cityU/disk2pwd.sh' 
+#alias pwd='pwd | bash ~/.rc/cityU/disk2pwd.sh' 
 export tmp=$clx'/tmp'
 
 # R library
