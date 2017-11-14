@@ -43,4 +43,7 @@ alias test='cd '$test
 alias lr='cd '$test'/longranger/longranger-2.1.6/longranger-cs/2.1.6'
 export longranger=$test'/longranger/longranger-2.1.6/longranger'
 
+# smrtlink
+export smrt=$clx'/lib/biotools/smrtlink_5.0.1/smrtlink'
+alias smrt='cd '$smrt
 
