@@ -47,3 +47,16 @@ export longranger=$test'/longranger/longranger-2.1.6/longranger'
 export smrt=$clx'/lib/biotools/smrtlink_5.0.1/smrtlink'
 alias smrt='cd '$smrt
 
+# Anaconda
+
+# added by Anaconda2 installer
+export PATH="/home/chenlingxi/mnt/disk2/lib/tools/anaconda2/bin:$PATH"
+
+# added by Anaconda3 installer
+export PATH="/home/chenlingxi/mnt/disk2/lib/tools/anaconda3/bin:$PATH"
+
+
+
+
+
+
