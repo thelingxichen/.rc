@@ -454,6 +454,37 @@ ${1:${VISUAL:doc}}
 `!p snip.rv = triple_quotes(snip)`
 endsnippet
 
+
+global !p
+
+NORMAL  = 0x1
+DOXYGEN = 0x2
+SPHINX  = 0x3
+GOOGLE  = 0x4
+NUMPY   = 0x5
+JEDI    = 0x6
+
+SINGLE_QUOTES = "'"
+DOUBLE_QUOTES = '"'
+
+
+def get_dir_and_file_name(snip):
+	return os.getcwd().split(os.sep)[-1] + '.' + snip.basename
+
+def get_file_name(snip):
+	return snip.basename
+
+def get_quoting_style(snip):
+	style = snip.opt("g:ultisnips_python_quoting_style", "double")
+	if style == 'single':
+		return SINGLE_QUOTES
+	return DOUBLE_QUOTES
+
+
+
+
+endglobal
+
 # vim:ft=snippets:
 #######################################################################
 #                            Own Snippets                             #
