@@ -14,7 +14,7 @@ export meerkat=$bioto_Meerkat_Script_dir
 export seeksv=$bioto_SeekSV_0_2_0
 
 # project workspace
-export clx='/home/chenlingxi/mnt/disk2'
+export clx='/home/chenlingxi/mnt/chenlingxi'
 alias clx='cd '$clx
 export disk2='/disk2/workspace/chenlingxi'
 alias disk2='cd '$disk2
@@ -49,12 +49,12 @@ alias smrt='cd '$smrt
 
 # Anaconda
 
-# added by Anaconda2 installer
-export PATH="/home/chenlingxi/mnt/disk2/lib/tools/anaconda2/bin:$PATH"
 
 # added by Anaconda3 installer
-export PATH="/home/chenlingxi/mnt/disk2/lib/tools/anaconda3/bin:$PATH"
+export PATH="/home/chenlingxi/mnt/chenlingxi/lib/tools/anaconda3/bin:$PATH"
 
+# added by Anaconda2 installer
+export PATH="/home/chenlingxi/mnt/chenlingxi/lib/tools/anaconda2/bin:$PATH"
 
 
 
