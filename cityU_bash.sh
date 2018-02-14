@@ -56,7 +56,8 @@ export PATH="/home/chenlingxi/mnt/chenlingxi/lib/tools/anaconda3/bin:$PATH"
 # added by Anaconda2 installer
 export PATH="/home/chenlingxi/mnt/chenlingxi/lib/tools/anaconda2/bin:$PATH"
 
-
+# FlowSmart
+export fslog="/home/xuchang/FlowSmart2/temporarylog.log"
 
 
 
