@@ -9,6 +9,7 @@ fi
 export PS1="\n[\u@\h][\t]\[\e[35;1m\]\w\n\[\e[0m\]$"
 
 # command abbreviation
+alias ll='ls -lh'
 alias rm='rm -i'
 alias le='less -S'
 alias lest='column -t | less -S'

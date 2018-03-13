@@ -57,7 +57,14 @@ export PATH="/home/chenlingxi/mnt/chenlingxi/lib/tools/anaconda3/bin:$PATH"
 # added by Anaconda2 installer
 export PATH="/home/chenlingxi/mnt/chenlingxi/lib/tools/anaconda2/bin:$PATH"
 
+# FlowSmart
+export xcfslog="/home/xuchang/FlowSmart2/temporarylog.log"
 
+export fs=${clx}/workspace/Projects/Flowsmart
+alias fs='cd '$fs
+export fs_wdr=${clx}/workspace/FS_Projects
+alias fs_wdr='cd '$fs_wdr
 
+export flowsmart=${fs}/Flowsmart-1.0.0/Flowsmart.py
 
 
