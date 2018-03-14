@@ -18,7 +18,8 @@ export clx='/home/chenlingxi/mnt/chenlingxi'
 alias clx='cd '$clx
 export disk2='/disk2/workspace/chenlingxi'
 alias disk2='cd '$disk2
-alias pwd='pwd | bash ~/.rc/cityU/disk2pwd.sh' 
+#alias pwd='pwd | bash ~/.rc/cityU/disk2pwd.sh' 
+alias pwd='pwd'
 export tmp=$clx'/tmp'
 
 # R library
