@@ -38,18 +38,8 @@ alias sccc='cd '$sccc
 export whoc=$clx'/workspace/Bio_Projects/WHOC'
 alias whoc='cd '$whoc
 
-# test workplace
-export test=$clx'/workspace/test_biotools'
-alias test='cd '$test
-alias lr='cd '$test'/longranger/longranger-2.1.6/longranger-cs/2.1.6'
-export longranger=$test'/longranger/longranger-2.1.6/longranger'
-
-# smrtlink
-export smrt=$clx'/lib/biotools/smrtlink_5.0.1/smrtlink'
-alias smrt='cd '$smrt
 
 # Anaconda
-
 
 # added by Anaconda3 installer
 export PATH="/home/chenlingxi/mnt/chenlingxi/lib/tools/anaconda3/bin:$PATH"
@@ -59,6 +49,8 @@ export PATH="/home/chenlingxi/mnt/chenlingxi/lib/tools/anaconda2/bin:$PATH"
 
 # FlowSmart
 export xcfslog="/home/xuchang/FlowSmart2/temporarylog.log"
+export fsdl380log="/home/chenlingxi/mnt/chenlingxi/workspace/Projects/FlowSmart/FlowSmart-1.0.0/FSServer/dl380.log"
+export fsdelta2log="/home/chenlingxi/mnt/chenlingxi/workspace/Projects/FlowSmart/FlowSmart-1.0.0/FSServer/delta2.log"
 
 export fs=${clx}/workspace/Projects/FlowSmart
 alias fs='cd '$fs
