@@ -49,8 +49,7 @@ export PATH="/home/chenlingxi/mnt/chenlingxi/lib/tools/anaconda2/bin:$PATH"
 
 # FlowSmart
 export xcfslog="/home/xuchang/FlowSmart2/temporarylog.log"
-export fsdl380log="/home/chenlingxi/mnt/chenlingxi/workspace/Projects/FlowSmart/FlowSmart-1.0.0/FSServer/dl380.log"
-export fsdelta2log="/home/chenlingxi/mnt/chenlingxi/workspace/Projects/FlowSmart/FlowSmart-1.0.0/FSServer/delta2.log"
+export fslog="/home/chenlingxi/FlowSmart-1.0.0/tmp.log"
 
 export fs=${clx}/workspace/Projects/FlowSmart
 alias fs='cd '$fs
