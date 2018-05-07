@@ -1,4 +1,4 @@
-
+server=$1
 
 ln -s ~/.rc/vimrc ~/.vimrc
 ln -s ~/.rc/tmux.conf ~/.tmux.conf
@@ -13,7 +13,7 @@ echo source ~/.rc/cityU_bash.sh >> ~/.bashrc
 echo source ~/.rc/cslab_bash.sh >> ~/.bashrc
 
 git config --global user.email "chanlingxi@gmail.com"
-git config --global user.name "chenlingxi@delta2"
+git config --global user.name "chenlingxi@${server}"
 
 
 source ~/.bashrc
