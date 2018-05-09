@@ -19,7 +19,8 @@ export clx='/home/chenlingxi/mnt/chenlingxi'
 alias clx='cd '$clx
 export disk2='/disk2/workspace/chenlingxi'
 alias disk2='cd '$disk2
-alias pwd='pwd | bash ~/.rc/cityU/disk2pwd.sh' 
+#alias pwd='pwd | bash ~/.rc/cityU/disk2pwd.sh' 
+alias pwd='pwd'
 export tmp=$clx'/tmp'
 
 # R library
@@ -38,18 +39,8 @@ alias sccc='cd '$sccc
 export whoc=$clx'/workspace/Bio_Projects/WHOC'
 alias whoc='cd '$whoc
 
-# test workplace
-export test=$clx'/workspace/test_biotools'
-alias test='cd '$test
-alias lr='cd '$test'/longranger/longranger-2.1.6/longranger-cs/2.1.6'
-export longranger=$test'/longranger/longranger-2.1.6/longranger'
-
-# smrtlink
-export smrt=$clx'/lib/biotools/smrtlink_5.0.1/smrtlink'
-alias smrt='cd '$smrt
 
 # Anaconda
-
 
 # added by Anaconda3 installer
 export PATH="/home/chenlingxi/mnt/chenlingxi/lib/tools/anaconda3/bin:$PATH"
@@ -58,7 +49,14 @@ export PATH="/home/chenlingxi/mnt/chenlingxi/lib/tools/anaconda3/bin:$PATH"
 export PATH="/home/chenlingxi/mnt/chenlingxi/lib/tools/anaconda2/bin:$PATH"
 
 # FlowSmart
-export fslog="/home/xuchang/FlowSmart2/temporarylog.log"
+export xcfslog="/home/xuchang/FlowSmart2/temporarylog.log"
+export fslog="/home/chenlingxi/FlowSmart-1.0.0/tmp.log"
 
+export fs=${clx}/workspace/Projects/FlowSmart
+alias fs='cd '$fs
+export fs_wdr=${clx}/workspace/FS_Projects
+alias fs_wdr='cd '$fs_wdr
+
+export flowsmart=${fs}/FlowSmart-1.0.0/FlowSmart.py
 
 
