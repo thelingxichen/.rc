@@ -6,7 +6,8 @@ alias dl380='ssh chenlingxi@dl380a.cs.cityu.edu.hk'
 
 
 # cityU bioinfo software environment
-source /home/_00_ROOT_THINGS/_00_Global_Variables.sh
+export loadvar=/home/_00_ROOT_THINGS/_00_Global_Variables.sh
+source $loadvar
 export jobguard=$bioto_jobguard
 export samtools=$bioto_SamTools_0_3_1
 export pindel=$bioto_Pindel_0_2_5_b8
