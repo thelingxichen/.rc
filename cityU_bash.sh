@@ -3,6 +3,7 @@
 export delta2=10.37.1.158
 alias delta2='ssh chenlingxi@'$delta2
 alias dl380='ssh chenlingxi@dl380a.cs.cityu.edu.hk'
+alias dl580='ssh chenlingxi@dl580a.cs.cityu.edu.hk'
 
 
 # cityU bioinfo software environment
