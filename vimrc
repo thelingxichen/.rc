@@ -57,3 +57,6 @@ filetype plugin indent on    " required
 
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+Plugin 'andviro/flake8-vim'
+let g:PyFlakeOnWrite = 1
+let g:PyFlakeCheckers = 'pep8'
