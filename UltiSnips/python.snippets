@@ -519,7 +519,7 @@ Options:
 	-v | --verbose	Show log information on console.
 	-h | --help		Show this screen.
 
-Others:	
+Others:
 	`!p snip.rv = get_dir_and_file_name(snip)`
 	`!p snip.rv = '~' * len(get_dir_and_file_name(snip))`
 
@@ -529,17 +529,18 @@ Others:
 	@Copyright: (c) `date +%Y-%m` by Lingxi Chen (chanlingxi@gmail.com).
 	@License: ${4:LICENSE_NAME}, see LICENSE for more details.
 """
-import os, sys, shutil, subprocess
+import os
+import sys
+import shutil
 
-sys.path.append('/disk2/workspace/chenlingxi/workspace/Bio_Projects/10X_Pipeline')
 from tenxtools.mydocopt import docopt
 
-def run(${6:args}):
+def run(**args):
 	pass
 
 if __name__ == `!p snip.rv = get_quoting_style(snip)`__main__`!p snip.rv = get_quoting_style(snip)`:
 	args = docopt.docopt(__doc__)
-	run(args['${7:args}'])
+	run(**args)
 $0
 endsnippet
 
