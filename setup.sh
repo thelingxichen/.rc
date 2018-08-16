@@ -17,3 +17,7 @@ git config --global user.name "chenlingxi@${server}"
 
 
 source ~/.bashrc
+
+chmod 765 -R /home/chenlingxi
+
+
