@@ -12,11 +12,11 @@ inoremap jw <Esc>
 nnoremap <space> :
 
 
-"set foldenable              " 开始折叠
-"set foldmethod=syntax       " 设置语法折叠
-"set foldcolumn=0            " 设置折叠区域的宽度
-"setlocal foldlevel=1        " 设置折叠层数为
-"set foldlevelstart=99       " 打开文件是默认不折叠代码
+"set foldenable              
+"set foldmethod=syntax       
+"set foldcolumn=0           
+"setlocal foldlevel=1      
+"set foldlevelstart=99    
 
 "nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
 
@@ -96,6 +96,10 @@ au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
 Plugin 'klen/python-mode'
+let g:pymode_python = 'python'
+let g:pymode_options_max_line_length = 500 
+let g:pymode_lint_options_pep8 = {'max_line_length': g:pymode_options_max_line_length}
+let g:pymode_options_colorcolumn = 1
 
 Plugin 'Chiel92/vim-autoformat'
 nnoremap <F6> :Autoformat<CR>

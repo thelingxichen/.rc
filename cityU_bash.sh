@@ -37,9 +37,11 @@ export sccc=$clx'/workspace/Bio_Projects/SCCC/WGS-10X'
 alias sccc='cd '$sccc
 
 # WHOC project
-export whoc=$clx'/workspace/Bio_Projects/WHOC'
-alias whoc='cd '$whoc
+export wgs=$fs_wdr/WHOC.WGS_10X.batch01
+alias wgs='cd '$wgs
 
+export pb=$fs_wdr/WHOC.Sequel_PB.batch01
+alias pb='cd '$pb
 
 # Anaconda
 
