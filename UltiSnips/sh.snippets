@@ -27,6 +27,10 @@ endglobal
 ###########################################################################
 
 snippet run "modle run scripts"
+function run(){
+
+}
+
 sample=\$1
 wdr=\$2
 
@@ -40,8 +44,8 @@ fi
 cd $out_dir
 
 (
-
-) &> $out_dir/runtime.log && touch $out_dir/${sample}.ok
+run && touch $out_dir/task.ok
+) &> $out_dir/task_runtime.log 
 
 endsnippet
 
