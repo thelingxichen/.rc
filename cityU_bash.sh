@@ -43,6 +43,11 @@ alias wgs='cd '$wgs
 export pb=$fs_wdr/WHOC.Sequel_PB.batch01
 alias pb='cd '$pb
 
+# ReplicationTiming project
+export rpt=$clx/workspace/Bio_Projects/RPT
+alias rpt='cd '$rpt
+
+
 # Anaconda
 
 # added by Anaconda3 installer
