@@ -7,7 +7,7 @@ fi
 
 # User specific aliases and functions
 export PS1="\n[\u@\h][\t]\[\e[35;1m\]\w\n\[\e[0m\]$"
-export PS1="[%D %*]:%d $ "
+# export PS1="[%D %*]:%d $ "
 
 # command abbreviation
 alias ll='ls -lh'
