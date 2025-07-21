@@ -7,8 +7,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 
 echo source ~/.rc/basic_bash.sh >> ~/.zshrc
-echo source ~/.rc/cityU_bash.sh >> ~/.zshrc
-echo source ~/.rc/cslab_bash.sh >> ~/.zshrc
+echo source ~/.rc/mac_zsh.sh >> ~/.zshrc
 
 git config --global user.email "chanlingxi@gmail.com"
 git config --global user.name "chenlingxi@${server}"

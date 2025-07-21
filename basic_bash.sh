@@ -10,7 +10,7 @@ export PS1="\n[\u@\h][\D{%Y-%m-%d} \t]\[\e[35;1m\]\w\n\[\e[0m\]$"
 # export PS1="[%D %*]:%d $ "
 
 # command abbreviation
-alias ll='ls -lh'
+alias ll='ls -alF'
 alias rm='rm -i'
 alias le='less -S'
 alias lest='column -t | less -S'
